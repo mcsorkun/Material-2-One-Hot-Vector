@@ -9,3 +9,7 @@ Than it converts it into a One Hot Vector (actually it is count vector: it conta
 Writes the result in a CSV file (OneHotVector.csv).
 
 This information can be used as a descriptors for machine learning processes.
+
+Code also plots the occurence counts of each element:
+
+![alt text](https://raw.githubusercontent.com/mcsorkun/2D-Materials-Processor/master/elements.png)
