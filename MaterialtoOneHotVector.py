@@ -50,7 +50,7 @@ def splitNumber(text):
     return element, int(number)
 
 
-#parses elements and number of occurences from the formula list and create one hot vector    
+#counts number of occurences from the formula list     
 def CountElements(formulas,allElementsList):
 
     elementCounts=[0]*len(allElementsList)
