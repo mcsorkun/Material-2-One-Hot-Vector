@@ -40,7 +40,7 @@ def CreateElementList(formulas):
     return allElementsList
 
 
-#parses elements and number of occurences from element-number couple
+#parses elements and number of element occurences from element-number couple
 def splitNumber(text):
 
     element = text.rstrip('0123456789')
@@ -50,7 +50,7 @@ def splitNumber(text):
     return element, int(number)
 
 
-#counts number of occurences from the formula list     
+#counts number of element occurences from the formula list     
 def CountElements(formulas,allElementsList):
 
     elementCounts=[0]*len(allElementsList)
@@ -63,7 +63,7 @@ def CountElements(formulas,allElementsList):
     
     return elementCounts
 
-#parses elements and number of occurences from the formula list and create one hot vector    
+#parses element symbols and number of occurences from the formula list and create one hot vector    
 def CreateOneHotVector(formulas,allElementsList):
 
     vectors = []   
