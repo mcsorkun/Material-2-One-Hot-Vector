@@ -1,4 +1,4 @@
-# 2D-Materials-Processor
+# Formula to One Hot Vector
 
 This python script converts set of molecular formulas into the One Hot Vector.
 
